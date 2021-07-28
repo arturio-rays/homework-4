@@ -62,25 +62,16 @@ nav p {
 .sidebar p {
     position: relative;
     font-size: 18px;
-    border-top: 1px solid #bdbdbd;
     padding: 20px 0;
 }
 .sidebar p:before {
     content: '';
     position: absolute;
-    top: -1px;
-    width: 30%;
-    height: 2px;
-    background-color: #e3dddd;
-}
-.sidebar p:after {
-    content: '';
-    position: absolute;
-    top: -1px;
-    left: 70%;
-    width: 30%;
-    height: 2px;
-    background-color: #e3dddd;
+    top: 0;
+    left: 30%;
+    width: 40%;
+    height: 1px;
+    background-color: #bdbdbd;
 }
 footer {
     background-color: #e95b11;
