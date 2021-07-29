@@ -17,6 +17,9 @@ nav li {
     display: inline-block;
     padding: 25px 35px 0;
 }
+nav a {
+    text-decoration: none;
+}
 nav p {
     color: #fff;
     font-size: 20px;
